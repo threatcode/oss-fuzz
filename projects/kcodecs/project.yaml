@@ -1,0 +1,14 @@
+homepage: https://cgit.kde.org/kcodecs.git/
+language: c++
+primary_contact: tsdgeos@gmail.com
+sanitizers:
+  - address
+# Disabled MSAN because of https://github.com/threatcode/oss-fuzz/issues/6294
+#  - memory
+  - undefined
+main_repo: 'https://invent.kde.org/frameworks/kcodecs.git'
+fuzzing_engines:
+ - afl
+ - honggfuzz
+ - libfuzzer
+ - centipede

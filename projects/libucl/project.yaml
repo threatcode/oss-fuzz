@@ -1,0 +1,11 @@
+homepage: "https://github.com/vstakhov/libucl"
+primary_contact: "vsevolod@highsecure.ru"
+auto_ccs:
+  - "adam@adalogics.com"
+language: c
+main_repo: 'https://github.com/vstakhov/libucl'
+fuzzing_engines:
+ - afl
+ - honggfuzz
+ - libfuzzer
+ - centipede

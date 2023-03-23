@@ -1,0 +1,21 @@
+homepage: "https://github.com/facebook/hermes"
+language: c++
+primary_contact: "neildhar@meta.com"
+auto_ccs:
+  - "hmf@meta.com"
+  - "yaohway@meta.com"
+  - "axxu@meta.com"
+  - "avp@meta.com"
+  - "luigiconiglio@meta.com"
+  - "edq@meta.com"
+vendor_ccs:
+  - "oss-fuzz@meta.com"
+fuzzing_engines:
+  - libfuzzer
+  - afl
+  - honggfuzz
+  - centipede
+sanitizers:
+  - address
+  - undefined
+main_repo: 'https://github.com/facebook/hermes.git'

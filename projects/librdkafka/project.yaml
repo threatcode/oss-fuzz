@@ -1,0 +1,11 @@
+homepage: "https://github.com/edenhill/librdkafka"
+primary_contact: "magnus@edenhill.se"
+language: c++
+auto_ccs:
+  - "david@adalogics.com"
+main_repo: 'https://github.com/edenhill/librdkafka'
+fuzzing_engines:
+ - afl
+ - honggfuzz
+ - libfuzzer
+ - centipede
