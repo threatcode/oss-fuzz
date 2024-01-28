@@ -32,7 +32,7 @@
 		<dependency>
 			<groupId>com.code-intelligence</groupId>
 			<artifactId>jazzer-api</artifactId>
-			<version>0.14.0</version>
+			<version>0.21.1</version>
 		</dependency>
 		<dependency>
 			<groupId>jakarta.servlet.jsp.jstl</groupId>
